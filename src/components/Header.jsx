@@ -20,10 +20,9 @@ function Header({ theme, onThemeToggle, onNavigate }) {
     <header className="sticky top-0 z-20 border-b border-slate-200/70 bg-white/75 backdrop-blur-xl dark:border-slate-800/70 dark:bg-slate-950/55">
       <div className="mx-auto w-[min(1180px,calc(100%-1rem))] px-1 py-4 md:w-[min(1180px,calc(100%-2rem))] md:px-0">
         <div className="flex items-center justify-between gap-4">
-          <div className="grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-emerald-400 to-sky-400 text-sm font-extrabold tracking-[0.2em] text-slate-950 shadow-lg shadow-sky-200/40 dark:shadow-sky-950/30">
-            MR
+          <div className="grid  place-items-center rounded-2xl font-extrabold text-cyan-300 text-2xl  lg:ml-15">
+            Hridoy Ahmmad
           </div>
-
           <div className="hidden items-center gap-4 lg:flex">
             <nav className="flex flex-wrap gap-5 text-sm font-medium text-slate-600 dark:text-slate-300 xl:gap-6">
               {navItems.map((item) => (
